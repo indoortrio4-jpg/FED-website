@@ -1,0 +1,186 @@
+<!-- =========================
+INDEX.HTML
+========================= -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zero Waste Website</title>
+<link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+    <img src="images/treee.jpg" alt="Logo">
+</div>
+
+<nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="aboutme.html">About Me</a>
+    <a href="personalaction.html">Personal Action</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>Zero Waste</h1>
+
+<p>What is Zero Waste?</p>
+
+<div>
+    Zero waste is a lifestyle that focuses on reducing trash by
+    reusing, recycling, and making sustainable choices to help
+    protect the environment.
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<img src="images/zero-waste.jpg">
+
+</div>
+
+</section>
+
+<section class="features">
+
+<h2>Tips & Features(click to view)</h2>
+
+<div class="feature-container">
+
+    <!-- CARD 1 -->
+
+    <div class="feature-box">
+
+        <img src="images/reducewaste.png">
+
+        <h3>Reduce Waste</h3>
+
+        <div class="feature-text">
+            Reducing waste helps protect the environment by minimising
+            pollution and conserving natural resources.
+        </div>
+
+    </div>
+
+    <!-- CARD 2 -->
+
+    <div class="feature-box">
+
+        <img src="images/plant.jpg">
+
+        <h3>Eco Habits</h3>
+
+        <div class="feature-text">
+            People can practice eco habits by reducing waste,
+            recycling properly, and using reusable items.
+        </div>
+
+    </div>
+
+    <!-- CARD 3 -->
+
+    <div class="feature-box">
+
+        <img src="images/bottle.png">
+
+        <h3>Reuse Items</h3>
+
+        <div class="feature-text">
+            Reusing items helps reduce waste and encourages
+            a more sustainable lifestyle.
+        </div>
+
+    </div>
+
+    <!-- CARD 4 -->
+
+    <div class="feature-box">
+
+        <img src="images/earth.jpg">
+
+        <h3>Save Earth</h3>
+
+        <div class="feature-text">
+            Saving Earth starts with small everyday actions
+            that help reduce pollution and protect the environment.
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="footer-logo">
+
+    <div class="footer-line"></div>
+
+    <h4 class="social-title">Follow Me</h4>
+
+    <div class="socials">
+
+        <a href="https://www.facebook.com/share/1E5kf7ziAb/?mibextid=wwXIfr" target="_blank">
+            <img src="images/facebook.png" alt="Facebook">
+        </a>
+
+        <a href="https://www.instagram.com/jovanslees?igsh=MTZlbHJ2b3M3dmVrbQ%3D%3D&utm_source=qr" target="_blank">
+            <img src="images/instagram.svg" alt="Instagram">
+        </a>
+
+        <a href="https://sg.linkedin.com/in/jovan-lee-kai-wen-5ba887360" target="_blank">
+            <img src="images/linkedin.png" alt="LinkedIn">
+        </a>
+
+    </div>
+
+</div>
+
+<div class="footer-section">
+
+<h4 class="social-title">Quick Links</h4>
+
+<a href="index.html">Home</a>
+<a href="aboutme.html">About Me</a>
+<a href="personalaction.html">Personal Action</a>
+
+
+</div>
+
+<div class="footer-section">
+
+<h4>Contact</h4>
+
+<a href="#">Singapore</a>
+<a href="#">jovanlkw09.26@ichat.sp.edu.sg</a>
+<a href="#">+65 90478010</a>
+
+</div>
+
+</footer>
+
+<script>
+    const cards = document.querySelectorAll(".feature-box");
+
+    cards.forEach(function(card){
+        card.addEventListener("click", function(){
+            card.classList.toggle("show");
+        });
+    });
+</script>
+
+</body>
+</html>
